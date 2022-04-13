@@ -1,0 +1,29 @@
+.question {
+  margin: 1rem;
+}
+.answer {
+  margin: 0.5rem 1rem;
+}
+.btn {
+  background: #000;
+  color: #fff;
+  transition: all 0.35s;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:active {
+  background: #5eb4e7;
+  color: #fff;
+}
+.hid {
+  display: none;
+}
+.number {
+  padding: 0.5rem;
+  margin: 1rem;
+}

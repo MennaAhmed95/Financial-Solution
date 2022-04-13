@@ -1,5 +1,5 @@
 import classes from "./header.module.css";
-const Header = () => {
+const Header = ({ setShow }) => {
   return (
     <div className={classes.containImg}>
       <img src="/assets/2.jpg" alt="landing" className={classes.mainImage} />
@@ -9,7 +9,9 @@ const Header = () => {
           We are a leading financial services firm that focuses on working with
           business owners, entrepreneurs, and professionals.
         </p>
-        <button className={classes.btn}>generate business plan</button>
+        <button className={classes.btn} onClick={() => setShow(true)}>
+          generate business plan
+        </button>
       </div>
     </div>
   );
